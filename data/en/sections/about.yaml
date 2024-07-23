@@ -1,0 +1,92 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: DevOps Engineer
+# your company information
+# company:
+#   name: 
+#   url: 
+
+# your resume. this file path should be relative to you "static" directory
+# Dreprecated. Use resourceLinks instead.
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'Seasoned Linux System Administrator with over 5+ years of experience in managing and optimizing Linux-based infrastructures. Seeking a challenging role as a DevOps Engineer where I can leverage my expertise in linux system, and cloud services, to contribute to a dynamic team in a fast-paced environment. Dedicated to implementing robust and efficient systems, improving operational efficiency.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "cerek.shi@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/cerek"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/zhihong-shi-88598b234/"
+
+- name: Instagram
+  icon: "fab fa-instagram"
+  url: "https://www.instagram.com/cerekshi/"
+
+# You can put custom buttons to link your relevant resources.
+# For example, you can put link for your resume.
+resourceLinks:
+- title: "My Resume"
+  url: "files/Zhihong Shi - DevOps Engineer resume.pdf"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: soft-skill-indicator
+  name: Operating System - Linux
+  percentage: 90
+  color: green
+
+- type: soft-skill-indicator
+  name: Containerization - Kubernetes, Docker
+  percentage: 75
+  color: white
+
+- type: soft-skill-indicator
+  name: Coding - Python, Bash
+  percentage: 70
+  color: "#ff0000"
+
+- type: soft-skill-indicator
+  name: Database - MySQL, MongoDB, Redis
+  percentage: 85
+  color: orange
+
+- type: soft-skill-indicator
+  name: Team Work
+  percentage: 85
+  color: blue
+
+- type: soft-skill-indicator
+  name: Multitasking
+  percentage: 90
+  color: yellow
+
+# - type: certification
+#   name: 
+#   url: 
+#   badge: 
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"

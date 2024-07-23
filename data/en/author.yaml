@@ -1,0 +1,20 @@
+# some information about you
+name: "Zhihong (Cerek) Shi"
+nickname: "Zhihong (Cerek)"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi 👋, I am"
+image: "images/author/cerek-avatar.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "cerek.shi@gmail.com"
+  phone: "+1(510)-931-8464"
+  github: cerek
+  linkedin: zhihong-shi-88598b234
+
+# some summary about what you do
+summary:
+  - 👨‍💻 I am a DevOps Engineer ...
+  - 🌱 I’m currently learning DevOps skill set ...
+  - 📝 I regularly write articles on wiki.wildsre.com
+  - 🤝 I work on open-source projects
+  - 💛 💙 💜 💚 💛 💙 💜 💚

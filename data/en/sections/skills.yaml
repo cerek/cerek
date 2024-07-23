@@ -1,0 +1,41 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Kubernetes
+  logo: /images/sections/skills/kubernetes.png
+  summary: "Capable of deploying and managing applications on Kubernetes, ensuring efficient and scalable operations. Experienced in enabling the extension of Kubernetes functionalities to meet specific application requirements. Skilled in integrating Kubernetes with CI/CD pipelines, enhancing deployment automation and consistency."
+  url: "https://kubernetes.io/"
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: "I specialize in containerizing applications using Docker, ensuring efficient deployment and scalability. My experience includes creating and managing multi-stage and multi-architecture build processes. I have successfully implemented Docker solutions to streamline development workflows and optimize resource utilization."
+  url: "https://www.docker.com/"
+
+- name: Cloud Computing
+  logo: /images/sections/skills/cloud.png
+  summary: "I have hands-on experience with major cloud platforms including Google Cloud Platform (GCP), Amazon Web Services (AWS), and Microsoft Azure. My expertise includes designing and managing cloud-based infrastructure, optimizing resource allocation, and implementing scalable solutions. I am adept at leveraging cloud services to enhance operational efficiency and support business objectives."
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "I utilize Linux as my primary operating system for development and system administration. I am proficient in writing and optimizing Bash and shell scripts to automate tasks and streamline workflows. My experience includes configuring and maintaining Linux-based environments, ensuring system stability, and troubleshooting complex issues effectively."
+  url: "https://debian.org/"
+
+- name: Python Development
+  logo: /images/sections/skills/python.svg
+  summary: "I use Python as my primary language for open-source application development. I have experience building robust web applications with Django and Django REST Framework (DRF). I focus on developing scalable and secure web solutions, and I am skilled at creating efficient, maintainable code. I thrive in collaborative environments and am committed to delivering high-quality results."
+  url: "https://python.org/"
+
+- name: Gitlab CICD
+  logo: /images/sections/skills/gitlab.svg
+  summary: "I have extensive experience with GitLab CI/CD pipelines, adept at designing and implementing continuous integration and continuous deployment workflows. My expertise includes configuring GitLab runners, defining pipeline stages, and automating build, test, and deployment processes. I focus on optimizing CI/CD pipelines for efficiency and reliability, ensuring rapid and consistent delivery of high-quality software."
+  url: "https://gitlab.com/"

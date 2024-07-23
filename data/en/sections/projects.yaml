@@ -1,0 +1,48 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Back End
+  filter: "back-end"
+- name: Front End
+  filter: "front-end"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: Work Portal Server
+  logo: /images/sections/projects/work-portal.svg
+  role: Contributor
+  timeline: "Nov 2023 - Present"
+  repo: https://github.com/cerek/work-portal-server # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Work Portal Server is the back-end of WorkPortal Project which is a all-in-one system offer solutions for HR, IT, Project management.
+  tags: ["back-end", "Django", "Python"]
+
+- name: Work Portal Web
+  logo: /images/sections/projects/work-portal.svg
+  role: Contributor
+  timeline: "Nov 2023 - Present"
+  repo: https://github.com/cerek/work-portal-web # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Work Portal Server is the back-end of WorkPortal Project which is a all-in-one system offer solutions for HR, IT, Project management.
+  tags: ["front-end", "React", "Javascript"]
+
+- name: WildSRE Wiki
+  logo: /images/sections/projects/wildsre-wiki.png
+  role: Owner
+  timeline: "Oct 2022 - Present"
+  url: "https://wiki.wildsre.com/"
+  summary: The WildSRE Wiki is a comprehensive resource designed for learning and mastering DevOps skills. It serves as a detailed notebook, offering structured materials and in-depth tutorials on various DevOps concepts and practices.
+  tags: ["hobby", "wiki"]

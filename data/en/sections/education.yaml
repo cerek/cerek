@@ -1,0 +1,49 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: B.Sc. in Networking Engineer
+  icon: fa-graduation-cap
+  timeframe: 2010-2014
+  institution:
+    name: GuangZhou University
+    url: "#"
+    logo: /images/sections/education/guangzhou_university.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/tech_college.png
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: true
+    collapseAfter: 4
+    courses:
+    - name: Data Structures and Algorithm
+      achieved: 3.75
+      outOf: 4
+    - name: Network Security
+      achieved: 3.5
+      outOf: 4
+    - name: Operating System
+      achieved: 3.75
+      outOf: 4
+    - name: Cloud Infrastructure Essentials
+      achieved: 3.75
+      outOf: 4
+  grade: #(optional)
+    scale: GPA
+    achieved: 3.4
+    outOf: 4
+  # publications: #(optional)
+  # - title: 
+  #   url: "#"
+  # - title: 
+  #   url: "#"
+  # - title: 
+  #   url: "#"
